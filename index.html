@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Star Wars</title>
+  </head>
+  <body>
+    <div class="StarWars-container" id="StarWars-container">
+      <div class="Search-container">
+        <input
+          type="text"
+          class="Search"
+          id="Search"
+          placeholder="Type a Stars Wars character"
+        />
+        <button class="Starsbtn" id="Starsbtn">Search</button>
+        <h1 class="name" id="name">Name</h1>
+        <div class="character-dashboard">
+          <div class="information-character">
+            <div class="grid-item height" id="height">Height:</div>
+            <div class="grid-item mass" id="mass">Mass:</div>
+            <div class="grid-item hair_color" id="hair_color">hair_color:</div>
+            <div class="grid-item skin_color" id="skin_color">skin_color:</div>
+          </div>
+          <div class="information-character">
+            <div class="grid-item eye_color" id="eye_color">eye_color:</div>
+            <div class="grid-item birth_year" id="birth_year">birth_year:</div>
+            <div class="grid-item gender" id="gender">gender:</div>
+            <div class="grid-item homeworld" id="homeworld">homeworld:</div>
+          </div>
+        </div>
+        <div class="starWar_population" id="starWar_population">
+          <table class="table" id="table">
+            <tr>
+              <th>id</th>
+              <th>name</th>
+              <th>Population</th>
+            </tr>
+            <tr></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

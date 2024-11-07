@@ -1,0 +1,57 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(https://preview.redd.it/d8ql17e0m7g51.jpg?auto=webp&s=cf864c1506c811173d7c05e3dc7238a27349cc6e);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 28rem;
+}
+.StarWars-container{
+    display: flex;
+    justify-content: center;
+    top: 70px;
+}
+.Search-container{
+   text-align: center;
+}
+.character-dashboard{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 22px;
+}
+.grid-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    padding:15px;
+    color: black;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .starWar_population{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+  table{
+    width: 100%;
+    text-align: center;
+    border: 5px solid black;
+  }
